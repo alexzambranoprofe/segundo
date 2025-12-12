@@ -12,10 +12,11 @@ function App() {
           <img src={adsoLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Hola Chicos ADSO feliz Navidad</h1>
+      <h1>Centro de Belleza ADSO</h1>
+      <p>su mejor opción</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          El contador esta en {count}
+          Cantidad de clientes {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
